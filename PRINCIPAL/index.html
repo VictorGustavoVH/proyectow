@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Películas</title>
+    <link rel="stylesheet" href="styleP.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="btn">
+            <button>Login</button>
+        </div>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="catalog">
+            <div class="movie" data-title="Película 1" data-description="Descripción de la película 1" data-stock="En stock" data-image="movie1.jpg">
+                <div class="movie">
+                    <img src="https://m.media-amazon.com/images/I/71MQ4ReIYIL._SY342_.jpg" alt="Película 1">
+                    <div class="movie-content">
+                        <h2>Título de la Película 1</h2>
+                        <p class="description">Descripción de la película 1. Este es un breve resumen del contenido de la película.</p>
+                        <p class="availability">Disponibilidad: En stock</p>
+                    </div>
+                    <button class="load-more">Leer más</button>
+                </div>
+                <div class="movie">
+                    <img src="https://m.media-amazon.com/images/I/71MQ4ReIYIL._SY342_.jpg" alt="Película 1">
+                    <div class="movie-content">
+                        <h2>Título de la Película 1</h2>
+                        <p class="description">Descripción de la película 1. Este es un breve resumen del contenido de la película.</p>
+                        <p class="availability">Disponibilidad: En stock</p>
+                    </div>
+                    <button class="load-more">Leer más</button>
+                </div>
+                <div class="movie">
+                    <img src="https://m.media-amazon.com/images/I/71MQ4ReIYIL._SY342_.jpg" alt="Película 1">
+                    <div class="movie-content">
+                        <h2>Título de la Película 1</h2>
+                        <p class="description">Descripción de la película 1. Este es un breve resumen del contenido de la película.</p>
+                        <p class="availability">Disponibilidad: En stock</p>
+                    </div>
+                    <button class="load-more">Leer más</button>
+                </div>
+                <div class="movie">
+                    <img src="https://m.media-amazon.com/images/I/71MQ4ReIYIL._SY342_.jpg" alt="Película 1">
+                    <div class="movie-content">
+                        <h2>Título de la Película 1</h2>
+                        <p class="description">Descripción de la película 1. Este es un breve resumen del contenido de la película.</p>
+                        <p class="availability">Disponibilidad: En stock</p>
+                    </div>
+                    <button class="load-more">Leer más</button>
+                </div>
+                <div class="movie">
+                    <img src="https://m.media-amazon.com/images/I/71MQ4ReIYIL._SY342_.jpg" alt="Película 1">
+                    <div class="movie-content">
+                        <h2>Título de la Película 1</h2>
+                        <p class="description">Descripción de la película 1. Este es un breve resumen del contenido de la película.</p>
+                        <p class="availability">Disponibilidad: En stock</p>
+                    </div>
+                    <button class="load-more">Leer más</button>
+                </div>
+                <div class="movie">
+                    <img src="https://m.media-amazon.com/images/I/71MQ4ReIYIL._SY342_.jpg" alt="Película 1">
+                    <div class="movie-content">
+                        <h2>Título de la Película 1</h2>
+                        <p class="description">Descripción de la película 1. Este es un breve resumen del contenido de la película.</p>
+                        <p class="availability">Disponibilidad: En stock</p>
+                    </div>
+                    <button class="load-more">Leer más</button>
+                </div>
+            <!-- Más películas -->
+        </div>
+    </div>
+
+    <div id="loanModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Préstamo de Película</h2>
+            <img id="modal-image" src="" alt="Imagen de la película">
+            <p id="modal-description"></p>
+            <p id="modal-stock"></p>
+            <form>
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" readonly>
+                <label for="loan-period">Período de Préstamo:</label>
+                <select id="loan-period" name="loan-period">
+                    <option value="1 week">1 semana</option>
+                    <option value="2 weeks">2 semanas</option>
+                    <option value="1 month">1 mes</option>
+                </select>
+                <button type="submit">Solicitar Préstamo</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
