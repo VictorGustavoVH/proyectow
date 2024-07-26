@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-an-old-bookcase-in-a-library-image_2642908.jpg');
+    text-align: center;
+  }
+  h1 {
+    color: #000;
+    text-align: justify;
+    font-size: 17px;
+  }
+  .formulario-registro {
+    width: 90%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-family: 'calibri';
+    color: white;
+    font-size: 15px;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+  }
+  .formulario-registro h4 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  .formulario-registro img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .controles {
+    width: 100%;
+    background: #ffffff;
+    padding: 11px;
+    border-radius: 9px;
+    margin-bottom: 15px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left; 
+  }
+  .contenedor-contraseña {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .contenedor-contraseña input {
+    width: 100%;
+    padding-right: 40px; 
+  }
+  .contenedor-contraseña i {
+    position: absolute;
+    right: 10px;
+    height: 50%;
+    cursor: pointer;
+    color: #000000;
+  }
+  .formulario-registro .botones {
+    width: 80%;
+    max-width: 200px;
+    padding: 12px;
+    color: white;
+    margin: 9px auto;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #3653f8;
+    display: block; 
+  }
+  
+.encabezado {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+    padding: 5px 5%;
+  }
+  
+  .encabezado .logo {
+    cursor: pointer;
+    margin-right: auto;
+  }
+  
+  .encabezado .logo img {
+    height: 65px;
+    width: auto;
+    transition: all 0.3s;
+  }
+  .encabezado .logo img:hover {
+    transform: scale(1.2);
+  }
+  .encabezado .enlaces-nav {
+    list-style: none;
+  }
+  .encabezado .enlaces-nav li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .encabezado .enlaces-nav li:hover {
+    transform: scale(1.1);
+  }
+  
+  .encabezado .enlaces-nav a {
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+  }
+  .encabezado .btn button {
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .encabezado .btn button:hover {
+    background-color: #e2f1f8;
+    color: #ff0000;
+    transform: scale(1.1);
+  }
+  .formulario-registro {
+    width: 90%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 40px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-family: 'calibri';
+    color: white;
+    font-size: 15px;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+  }
+  .formulario-registro h4 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  .formulario-registro img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .controles {
+    width: 100%;
+    background: #ffffff;
+    padding: 11px;
+    border-radius: 9px;
+    margin-bottom: 15px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left; 
+  }
+  .contenedor-contraseña {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .contenedor-contraseña input {
+    width: 100%;
+    padding-right: 40px; 
+  }
+  .contenedor-contraseña i {
+    position: absolute;
+    right: 10px;
+    height: 50%;
+    cursor: pointer;
+    color: #000000;
+  }
+  .formulario-registro .botones {
+    width: 80%;
+    max-width: 200px;
+    padding: 12px;
+    color: white;
+    margin: 9px auto;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #3653f8;
+    display: block; 
+  }
+  
